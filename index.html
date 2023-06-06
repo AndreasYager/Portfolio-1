@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="introduction">
+        <h1>About Me</h1>
+        <p id="about-me">Hello, I'm ... </p>
+    </div>
+
+    <div id="project-slider">
+        <button id="prev" onclick="changeProject(-1)">Prev</button>
+        <div id="project-display">
+            <h2 id="project-title"></h2>  
+            <img id="project-image" src="" alt="Project Image">
+            <p id="project-description"></p>
+            <a id="project-github" href="">Github Link</a>
+            <a id="project-live" href="">Live Site</a>
+        </div>
+        <button id="next" onclick="changeProject(1)">Next</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
