@@ -1,27 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <div id="introduction">
-        <h1>About Me</h1>
-        <p id="about-me">Hello, I'm ... </p>
-    </div>
-
-    <div id="project-slider">
-        <button id="prev" onclick="changeProject(-1)">Prev</button>
-        <div id="project-display">
-            <h2 id="project-title"></h2>  
-            <img id="project-image" src="" alt="Project Image">
-            <p id="project-description"></p>
-            <a id="project-github" href="">Github Link</a>
-            <a id="project-live" href="">Live Site</a>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="introduction">
+        <div>
+          <h2>Hello, I'm Andreas Yager!</h2>
+          <p>
+            I'm a front-end development student at Noroff School of Technology
+            and Digital Media. I have a passion for building user-friendly and
+            visually appealing web experiences. I believe in continuous learning
+            and strive to acquire new skills and knowledge every day.
+          </p>
+          <h3>Get in Touch</h3>
+          <p>
+            If you're an employer looking for a dedicated and motivated
+            front-end developer, or if you have any exciting project
+            opportunities, please feel free to get in touch. I'm excited to
+            contribute my skills and be part of innovative projects.
+          </p>
+          <p>Email: andreas.yager@gmail.com</p>
+          <p>Let's connect and create something amazing together!</p>
         </div>
-        <button id="next" onclick="changeProject(1)">Next</button>
-    </div>
-    
+        <div><img src="images/profilepic.jpg" /></div>
+      </div>
+      <div class="learningpro">
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>WordPress</li>
+        </ul>
+        <h3>Learning Journey</h3>
+        <p>
+          I'm currently focused on strengthening my foundation in front-end
+          development. My goal is to become proficient in modern JavaScript
+          frameworks such as React.js and Vue.js. I'm eager to embrace new
+          challenges and learn from experienced developers. Every day, I
+          dedicate time to self-study and practice to improve my coding skills.
+        </p>
+      </div>
+
+      <div id="projects"></div>
+    </main>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

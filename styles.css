@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  color: #000080;
+}
+
+p {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+#introduction h2,
+#introduction h3 {
+  color: #c2b280;
+  margin-left: 10%;
+}
+
+h3 {
+  color: #494905;
+  margin-left: 10%;
+}
+
+li {
+  margin-left: 10%;
+  color: #494905;
+}
+
+#introduction {
+  display: flex;
+  background-color: #494905;
+  padding: 5%;
+  color: #c2b280;
+}
+
+#introduction img {
+  height: 30vh;
+  width: auto;
+  object-fit: cover;
+}
+
+a {
+  color: #556b2f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #01014a;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-between;
+  background-color: #494905;
+  padding: 2%;
+  color: #c2b280;
+}
+
+.project-container {
+  position: relative;
+  width: 30%;
+  height: 60vh;
+  margin-bottom: 2em;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  border-inline: 2px solid #c2b280;
+  color: #c2b280;
+}
+
+.project-container img {
+  width: auto;
+  height: 45vh;
+  object-fit: cover;
+  margin: auto;
+}
+
+.project-container p,
+.project-container h2 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.learningpro {
+  background-color: #c2b280;
+  color: #494905;
+  height: 100%;
+  padding-top: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .project-container {
+    width: 100%;
+  }
+}
