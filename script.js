@@ -1,9 +1,13 @@
+function scrollToSection(sectionId) {
+  document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+}
+
 let projects = [
   {
     title: "Community Science Museum",
     image: "images/CSM.jpg",
     description:
-      "The brief for this project was to make a website for an interactive science museum called the Community Science Museum, with a core target audience of kids/teens 7-15 as well as their parents. This site is built with HTML and CSS",
+      "The brief for this project was to make a website for an interactive science museum called the Community Science Museum, with a core target audience of kids/teens 7-15 as well as their parents. This site is built with HTML and CSS.",
     github: "https://github.com/AndreasYager/SP1-Community-Science-Museum",
     live: "https://chipper-cactus-f27e23.netlify.app",
   },
@@ -48,11 +52,12 @@ function displayProjects() {
 
     let textDiv = document.createElement("div");
     textDiv.innerHTML = `
-            <h2>${project.title}</h2>
+            <h2>${project.title}</h2> 
+            <a href="${project.github}" class="github-link">Github Repo</a>
+            <a href="${project.live}" class="live-site">Live Site</a>
             <p>${project.description}</p>
-            <a href="${project.github}">Github Link</a>
-            <a href="${project.live}">Live Site</a>
-        `;
+
+            `;
     projectElement.appendChild(imageDiv);
     projectElement.appendChild(textDiv);
 
