@@ -4,14 +4,14 @@ body {
 }
 
 header {
-  background-color: #9c8f5a;
+  background-color: #61523e;
   padding: 20px 10%;
   display: flex;
   justify-content: space-between;
 }
 
 header .scroll-link {
-  color: #556b2f;
+  color: #f4f4f4;
   text-decoration: none;
   font-size: x-large;
   font-weight: bold;
@@ -38,20 +38,20 @@ p {
 }
 
 h3 {
-  color: #556b2f;
+  color: #f4f4f4;
   margin-left: 10%;
 }
 
 li {
   margin-left: 10%;
-  color: #556b2f;
+  color: #f4f4f4;
 }
 
 #introduction {
   display: flex;
-  background-color: #494d38;
+  background-color: #3e3f38;
   padding: 5%;
-  color: #c2b280;
+  color: #f4f4f4;
 }
 
 #introduction img {
@@ -62,7 +62,7 @@ li {
 
 .github-link,
 .live-site {
-  color: #040444;
+  color: #f4f4f4;
   text-decoration: none;
   font-size: x-large;
   font-weight: bold;
@@ -79,9 +79,9 @@ li {
 #projects {
   display: flex;
   justify-content: space-between;
-  background-color: #494d38;
+  background-color: #3e3f38;
   padding: 2%;
-  color: #c2b280;
+  color: #f4f4f4;
 }
 
 .project-container {
@@ -117,8 +117,8 @@ li {
 }
 
 .skills {
-  background-color: #9c8f5a;
-  color: #556b2f;
+  background-color: #61523e;
+  color: #f4f4f4;
   height: 100%;
   padding: 2% 0%;
 }
