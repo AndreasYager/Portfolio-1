@@ -27,6 +27,16 @@ let projects = [
     github: "https://github.com/AndreasYager/Oslo-Ironworks",
     live: "https://wondrous-bubblegum-1beecb.netlify.app",
   },
+  {
+    title: "Yager's Auction House",
+    image: "images/YAH.jpg",
+    description: "The breif for this project was to create an auction site using Noroff API. Required features were users being able to add items as well as bid on items.",
+    github: "https://github.com/AndreasYager/SP2",
+    live: "https://lovely-beignet-816ad2.netlify.app",
+ 
+    
+    
+  }
 ];
 
 window.onload = function () {
