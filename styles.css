@@ -104,6 +104,7 @@ li {
   height: 45vh;
   object-fit: cover;
   margin: auto;
+  width: 70%;
 }
 
 .project-container p,
